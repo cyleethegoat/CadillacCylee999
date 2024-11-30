@@ -18,7 +18,7 @@ global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VavkrOID38CS
 global.website = process.env.GURL || "https://whatsapp.com/channel/0029VavkrOID38CSgcyfbM07";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://files.catbox.moe/yeu6a8.jpg";
 global.devs = "27615045572";
-global.sudo = process.env.SUDO || "27615045572";
+global.sudo = process.env.SUDO || "27615045572,2347048805308";
 global.owner = process.env.OWNER_NUMBER || "27615045572";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "true";
@@ -46,7 +46,7 @@ global.SESSION_ID =
   "" // session id here
 module.exports = {
   menu: process.env.MENU || "2",
-  HANDLERS: process.env.PREFIX || "+",
+  HANDLERS: process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
   caption: process.env.CAPTION || "`QUEEN_KYLIE-V1👸❤️🧸❄️™`",
